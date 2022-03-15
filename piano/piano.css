@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: black;
+}
+
+.top
+{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    box-shadow: 0px 10px 20px black;
+    z-index: 999;
+}
+.beyaz
+{
+    float: left;
+    margin-left: 4px;
+    height: 633px;
+    width: 130px;
+    box-shadow: inset 0px 0px 30px 20px white;
+    cursor: pointer;
+}
+
+.siyah, .siyah2,.siyah3,.siyah4,.siyah5,.siyah6,.siyah7
+{
+    position: absolute;
+    height: 400px;
+    width: 65px;
+    z-index: 99;
+    margin-top: 0px;
+    margin-left: -1235px;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 10px 5px gray;
+    background: linear-gradient(to bottom,gray 0%,black 100%);
+    cursor: pointer;
+}
+.siyah:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
+
+.siyah2
+{
+    margin-left: -1103px;
+}
+.siyah2:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
+
+.siyah3
+{
+    margin-left: -833px;
+}
+.siyah3:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
+.siyah4
+{
+    margin-left: -696px;
+}
+.siyah4:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
+
+.siyah5
+{
+    margin-left: -564px;
+}
+.siyah5:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
+
+.siyah6
+{
+    margin-left: -300px;
+}
+.siyah6:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
+
+.siyah7
+{
+    margin-left: -160px;
+}
+.siyah7:active
+{
+    background: linear-gradient(to bottom,black 0%,gray 100%);
+}
